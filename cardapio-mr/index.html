@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=devic-widt,initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <title>Mr</title>
+</head>
+
+<body>
+ <header>
+ 
+  <h1>
+  <img src="img/logo.png" alt="Logo do Mr" class="logo">
+   Mr: mineiro sem fronteiras</h1>
+  <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="menu">
+  <span></span><span></span><span></span>
+  </label>
+  
+<nav>
+  <a href="#historia">História</a>
+  <a href="#cardapio">Cardápio</a>
+  <a href="#reservas">Reservas</a>
+  <a href="#saibamais">Saiba mais</a>
+</nav>
+
+</header>
+
+<main>
+  <div id="historia">
+  <h2>Minas encontra o mundo</h2>
+  <p>Em 1987, numa cozinha em Contagem, dona Raimunda recebeu a visita de um primo marinheiro que chegou com a mala cheia de temperos do mundo: curry, pimenta defumada, gergelim, azeite português.</p>
+  <p>Ela ajeitou o avental e falou: <strong>"Mineiro não tem medo de panela. Deixa comigo."</strong></p>
+  <p>Naquela noite, o feijão tropeiro ganhou curry, o pão de queijo ganhou chimichurri e a couve encontrou o gergelim. O primo provou e disse: <strong>"Dei a volta ao mundo e nunca comi nada igual."</strong></p>
+  <p>Assim nasceu o Mr: <strong>Minas + Raízes</strong>, ou <strong>Minas + Mundo</strong>, depende de quem pergunta. Hoje, o fogão a lenha encontra o mundo inteiro em pratos como a carne de sol com queijo minas, o bibimbap com torresmo e a moqueca mineira com quiabo.</p>
+  <p>Como dizia dona Raimunda:</p>
+  <p><strong>"O mundo é grande demais, mas cabe inteirinho numa panela de ferro."</strong></p>
+</div>
+
+<div id="cardapio">
+  <h1>Cardápio</h1>
+
+  <h3>Entradas</h3>
+
+  <p><strong>Batatas bravas do serrado</strong></p>
+  <img src="img/batata.jpg" alt="Batatas bravas com aioli de pequi">
+  <p>Batatas douradas e apimentadas, no estilo espanhol, servidas com um aioli cremoso de pequi, feito com óleo do fruto de Montes Claros, e finalizadas com manteiga de garrafa. É a Espanha encontrando o sertão mineiro.</p>
+
+  <p><strong>Quibe da fazenda</strong></p>
+   <img src="img/quibe.jpg" alt="Quibe recheado com linguiça artesanal">
+  <p>Quibe dourado por fora e macio por dentro, recheado com linguiça artesanal mineira de sabor defumado. É o Líbano chegando de mala e cuia às Gerais.</p>
+
+  <p><strong>Tempurá de milho</strong></p>
+  <img src="img/tempura.jpg" alt="Tempurá de milho com molho bearnaise">
+  <p>Milho verde envolvido em uma massa leve de tempurá, frito até ficar dourado e crocante, e servido com molho bearnaise e queijo Grana ralado na hora. É o Japão descobrindo o gosto do milho da roça.</p>
+
+  <h3>Pratos principais</h3>
+
+  <p><strong>Frango coreano de Minas</strong></p>
+  <img src="img/frango.jpg" alt="Frango com molho gochujang">
+  <p>Frango suculento, envolvido em um molho gochujang de sabor intenso e levemente picante, acompanhado de um caldo de tutano profundo e aveludado. É a Coreia do Sul encontrando o frango caipira.</p>
+
+  <p><strong>Tropeiro do mar</strong></p>
+  <img src="img/tropeiro.jpg" alt="Feijão-tropeiro com bacalhau">
+  <p>Feijão-tropeiro com farofa crocante, linguiça e lascas de bacalhau dourado, como pedem as mesas portuguesas. É Portugal atravessando o oceano para se sentar à mesa dos tropeiros.</p>
+
+  <h3>Sobremesa</h3>
+
+  <p><strong>Abacaxi com coco em choux</strong></p>
+  <img src="img/sobremesa.jpg" alt="Massa choux com recheio de abacaxi e coco">
+  <p>Massa choux leve e dourada, com recheio cremoso de abacaxi e coco, inspirada no bolo clássico das casas mineiras. É a confeitaria francesa se rendendo ao doce da vovó.</p>
+</div>
+
+<div id="reservas">
+  <h3>Reservas</h3>
+  <p>Garanta sua mesa no Mr.</p>
+
+<form id="formulario">
+ <p>
+   <label for="nome">Nome:</label><br>
+   <input type="text" id="nome">
+ </p>
+
+ <p>
+   <label for="telefone">Telefone:</label><br>
+   <input type="tel" id="telefone">
+  </p>
+
+   <p>
+    <label for="data">Data:</label><br>
+    <input type="date" id="data">
+  </p>
+
+  <p>
+    <label for="horario">Horário:</label><br>
+    <input type="time" id="horario">
+  </p>
+
+   <p>
+    <label for="pessoas">Número de pessoas:</label><br>
+    <input type="number" id="pessoas">
+   </p>
+
+    <button type="submit">Reservar mesa</button>
+</form>
+</div>
+</main>
+
+<footer>
+<div id="saibamais">
+   <h3>Fale com a gente</h3>
+  
+<ul>  
+   <li>Telefone: (31) 00000-0000</li>
+   <li>E-mail: mrrestaurante.contato@gmail.com</li>
+   <li>Instagram: <a href="https://www.instagram.com/ms_canela_">@mr.restaurante</a></li>
+</ul>
+
+  <p>&copy; 2026 Mr.</p>
+  <p>Todos os direitos reservados.</p>
+
+   <button onclick="setTimeout(function() {
+    window.location.href='segunda.html';
+   }, 2000)">SAIBA MAIS</button> 
+
+</div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
